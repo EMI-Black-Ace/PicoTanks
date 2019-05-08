@@ -15,4 +15,5 @@ public interface ITankBody
 public interface ITankGun
 {
     void Aim(double Xinput, double Yinput);
+    void Shoot();
 }
